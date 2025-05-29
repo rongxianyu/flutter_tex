@@ -39,7 +39,16 @@
             }
         }
     </style>
-
+    <!-- MathJax v3 Configuration -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+            }
+        };
+    </script>
     <script src="flutter_tex.js" type="text/javascript"></script>
     <script src="mathjax_core.js" id="MathJax-script"></script>
     <title>Flutter TeX</title>
